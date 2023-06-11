@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Searchbar from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
 import Modal from './Modal/Modal';
-import Button from './utils/Button';
-import Loader from './utils/Loader';
-import { fetchImages } from './api';
+import Button from './useful/Button/Button';
+import Loader from './useful/Loader/Loader';
+import { fetchImages } from '../api/api';
 
 const App = () => {
   const [images, setImages] = useState([]);
